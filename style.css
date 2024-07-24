@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.banniere {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo img {
+    height: 19px;
+    width: 61.09px;
+    gap: 10px
+}
+
+header.banniere {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header.banniere .boutons .bouton {
+    background-color: white;
+    color: black;
+    border: 0px;
+    padding: 10px 20px;
+}
+
+header.banniere .boutons .bouton:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 13.5px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    width: 377px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px;
+    padding-left: 0px;
+}
+
+.locationlogo {
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    border-radius: 15px 0px 0px 15px;
+    align-content: center;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+}
+
+.searchbar {
+    height: 50px;
+    width: 195px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    align-content: center;
+    background-color: white;
+}
+
+.bordureNone {
+    border: none;
+}
+
+.paddingSearchbar {
+    padding-left: 20px;
+}
+
+.searchbutton {
+    height: 50px;
+    width: 132px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Rechercher .icon {
+    display: none;
+}
+
+.Rechercher .texte  {
+    display: inline;
+}
+
+@media screen and (max-width:768px) {
+   
+   .searchbutton {
+    width: 20px;
+    height: 20px;
+    padding: 15px 16px 15px 16px;
+    border-radius: 15px;
+    border: 1px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+   }
+   
+    .Rechercher .texte {
+        display: none;
+    }
+    .Rechercher .icon {
+        display: inline;
+    }
+}
