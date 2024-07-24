@@ -4,6 +4,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/*------------------------Banner-----------------------*/
+
 .banniere {
     display: flex;
     align-items: center;
@@ -36,6 +38,9 @@ header.banniere .boutons .bouton:hover {
     padding-top: 13.5px;
 }
 
+/*--------------------------------Searchbar-------------------------------
+#------------------------------------------------------------------------*/
+
 .container {
     display: flex;
     justify-content: flex-start;
@@ -60,8 +65,8 @@ header.banniere .boutons .bouton:hover {
 
 .searchbar {
     height: 50px;
-    width: 195px;
-    font-size: 18px;
+    width: 147px;
+    font-weight: 700;
     color: black;
     font-weight: bold;
     align-content: center;
@@ -96,6 +101,9 @@ header.banniere .boutons .bouton:hover {
     display: inline;
 }
 
+/*----------------------------------------Media_Quary-----------------------------
+#--------------------------------------------------------------------------------*/
+
 @media screen and (max-width:768px) {
    
    .searchbutton {
@@ -113,4 +121,198 @@ header.banniere .boutons .bouton:hover {
     .Rechercher .icon {
         display: inline;
     }
+}
+
+
+/*-----------------------------------------------------------Filtres-----------------------
+------------------------------------------------------------------------------------------*/
+
+
+.Filtres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    width: 758px;
+    height: 50px;
+    gap: 15px;
+}
+
+.titrefiltres {
+    width: 54px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.Economique {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 173px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border: 10px;
+    padding : 4px 19px 4px 19px;
+    gap: -10px;
+    border-color: rgba(217, 217, 217, 1);
+    cursor: pointer;
+}
+
+.bouton_logo_1 {
+    width: 22px;
+    height: 22px;
+    align-content: center;
+    justify-content: center;
+}
+
+.bouton_texte_1 {
+    width: 103px;
+    height: 20px;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.Economique:hover{
+    color:black;
+    background-color: #DEEBFF;
+}
+
+
+.Familial {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 134px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border: 10px;
+    padding : 4px 19px 4px 19px;
+    gap: 1px;
+    border-color: rgba(217, 217, 217, 1);
+    cursor: pointer;
+}
+
+.bouton_logo_2 {
+    width: 22px;
+    height: 22px;
+    align-content: center;
+    justify-content: center;
+}
+
+.bouton_texte_2 {
+    width: 64px;
+    height: 20px;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.Familial:hover {
+    color:black;
+    background-color: #DEEBFF;
+}
+
+.Romantique {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border: 10px;
+    padding : 4px 19px 4px 19px;
+    gap: 1px;
+    border-color: rgba(217, 217, 217, 1);
+    cursor: pointer;
+}
+
+.bouton_logo_3 {
+    width: 22px;
+    height: 22px;
+    align-content: center;
+    justify-content: center;
+}
+
+.bouton_texte_3 {
+    width: 100px;
+    height: 20px;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.Romantique:hover {
+    color:black;
+    background-color: #DEEBFF;
+}
+
+.Nos_pépites {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 167px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border: 10px;
+    padding : 4px 19px 4px 19px;
+    gap: 1px;
+    border-color: rgba(217, 217, 217, 1);
+    cursor: pointer;
+
+}
+
+.bouton_logo_4 {
+    width: 22px;
+    height: 22px;
+    align-content: center;
+    justify-content: center;
+}
+
+.bouton_texte_4 {
+    width: 97px;
+    height: 20px;
+    align-content: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.Nos_pépites:hover{
+    color:black;
+    background-color: #DEEBFF;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    width: 1340px;
+    height: 24px;
+    gap: 0px;
+}
+
+.info_logo {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    border: 1px;
+    margin: 12px;
+}
+
+.infos_nombre_de_logements {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
 }
