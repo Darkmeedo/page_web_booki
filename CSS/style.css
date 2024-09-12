@@ -18,12 +18,17 @@ body {
 @media screen and (min-width: 1024px) {
     body {
         max-width: 1440px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 50px auto;
+        margin-right: 50px auto;
         margin-top: 0;
     }
 }
 
+@media screen and (min-width: 1441px) {
+    body {
+        margin: auto;
+    }    
+}
 /*-----------Banner-----------*/
 
 .banniere {
