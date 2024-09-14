@@ -66,7 +66,7 @@ header.banniere .boutons .bouton:hover {
     border-bottom: 2px solid #0065FC;
     border-top: none;
     color: #0065FC;
-    justify-content: space-around;
+    justify-content: end;
     gap: 0px;
 }
 
@@ -112,7 +112,7 @@ h1 {
     }
 
     .boutons {
-        width: 33%;
+        width: 344px;
         gap: 68px;
     }
 
